@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Background -->
+    <div class="container">
+        <div class="portal">
+            <h1 class="welcome-text">Tap to Enter</h1>
+        </div>
+    </div>
+
+    <!-- Halaman Utama -->
+    <div class="main hidden">
+        <div class="porto-wrapper">
+            <div class="porto-walk-one">
+                <ul class="one">
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/1.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/2.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/3.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/4.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/1.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/2.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/3.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/4.jpg" alt="ayank">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="porto-walk-two">
+                <ul class="two">
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/4.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/5.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/6.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/7.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <!-- copy -->
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/4.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/5.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/6.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/7.jpg" alt="ayank">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="porto-walk-three">
+                <ul class="three">
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/7.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/8.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/9.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/1.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/7.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/8.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/9.jpg" alt="ayank">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wrapper font-cabgro">
+                            <img src="/assets/photo/1.jpg" alt="ayank">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="layer"></div>
+        <canvas id="fireworksCanvas"></canvas>
+        <img src="assets/balloon.png" class="balloon" alt="ballon">
+        <div class="text">
+            <h1 class="birthday-text">Happy Birthday, Sayang! 🎂</h1>
+            <button class="gift-btn">Buka Hadiah 🎁</button>
+        </div>
+    </div>
+
+    <!-- Surprise Card -->
+    <div class="card hidden">
+        <h2>Selamat Ulang Tahun Fayaaakuu!</h2>
+        <p>Jarak saat ini memang sangat berperan untuk kita, tapi meskipun kita jauh, di hari ulang tahunmu ini, aku
+            berdoa agar Tuhan selalu menjagamu untukku dan cinta kita. Selamat ulang tahun sayanngg. ❤️</p>
+        <button class="close-card">Tutup</button>
+    </div>
+
+    <!-- Audio -->
+    <audio id="bg-music" loop>
+        <source src="assets/music.mp3" type="audio/mp3">
+    </audio>
+</body>
+
+</html>
